@@ -1,1 +1,1 @@
-*Tea cozy *
+*Tea cozy*
