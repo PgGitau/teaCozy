@@ -1,13 +1,41 @@
+/*DEFAULT STYLING*/
 * {
     box-sizing: border-box;
     margin: 0;
     border: 0;
-}
-
-body {
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
     background-color: black;
     opacity: 0.9;
+    /* text-align: center; */
+}
+
+/*NAVBAR STYLING*/
+.navigation {
+    border-bottom: 1px solid seashell;
+    padding: 0px 10px;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*for a fixed navbar*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 9999; /*after position:fixed in relation to content after(himage)*/
+}
+
+.navigation .logo img {
+    height: 50px;
+}
+
+.links a {
+    padding-left: 1.2rem;
+}
+
+.himage {
+    z-index: 1000; /*in relation to fixed nav*/
+    margin-top: 3.2rem;
 }
