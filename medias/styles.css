@@ -19,7 +19,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
     /*for a fixed navbar*/
     position: fixed;
     top: 0;
@@ -36,7 +36,38 @@
     padding-left: 1.2rem;
 }
 
-.himage {
-    z-index: 1000; /*in relation to fixed nav*/
+/*HEADER IMAGE SECTION*/
+.headerimage {
     margin-top: 3.2rem;
+    z-index: 1000; /*in relation to fixed nav*/
+    /* border: 2px solid red; */
+}
+
+.himage {
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+    background-image: url("images/header-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.htext {
+    /* border: 2px solid red; */
+    text-align: center;
+    
+    /*to position the text vertically center*/
+    position: absolute;
+    top: 50%;
+    width: 1200px;
+}
+.htext h2 {
+    font-size: 24px;
+}
+.htext h4 {
+    font-size: 16px;    
+}
+.htext h2, .htext h4 {
+    margin: .5rem 0 .5rem 0;
 }
