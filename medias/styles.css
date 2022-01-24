@@ -10,6 +10,16 @@
     opacity: 0.9;
     /* text-align: center; */
 }
+h2 {
+    font-size: 24px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 13.28px;
+}
+
 
 /*NAVBAR STYLING*/
 .navigation {
@@ -36,6 +46,8 @@
     padding-left: 1.2rem;
 }
 
+
+
 /*HEADER IMAGE SECTION*/
 .headerimage {
     margin-top: 3.2rem;
@@ -56,18 +68,47 @@
 .htext {
     /* border: 2px solid red; */
     text-align: center;
-    
+
     /*to position the text vertically center*/
     position: absolute;
     top: 50%;
     width: 1200px;
 }
-.htext h2 {
-    font-size: 24px;
-}
-.htext h4 {
-    font-size: 16px;    
-}
 .htext h2, .htext h4 {
     margin: .5rem 0 .5rem 0;
+}
+
+
+/*TEAS SECTION*/
+.teas {
+    /* border: 2px solid red; */
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.teas .ttext {
+    /* border: 2px solid red; */
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+.ttext h2 {
+    margin-bottom: .5rem;
+}
+
+.timages img {
+    height: 200px;
+    width: 300px;
+}
+
+.timages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.2rem;
+}
+
+.timages h4 {
+    /* border: 2px solid red; */
+    margin-top: 10px;
 }
