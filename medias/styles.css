@@ -6,9 +6,13 @@
     font-family: Helvetica;
     font-size: 22px;
     color: seashell;
+    /* background-color: black;
+    opacity: 0.9; */
+    /* text-align: center; */
+}
+body, .headerimage, .htext, .teas, .timages, .timages img, .locate {
     background-color: black;
     opacity: 0.9;
-    /* text-align: center; */
 }
 h2 {
     font-size: 24px;
@@ -23,6 +27,8 @@ h5 {
 
 /*NAVBAR STYLING*/
 .navigation {
+    background-color: black;
+    opacity: 1;
     border-bottom: 1px solid seashell;
     padding: 0px 10px;
     height: 69px;
@@ -112,3 +118,52 @@ h5 {
     /* border: 2px solid red; */
     margin-top: 10px;
 }
+
+
+/*LOCATIONS SECTION*/
+.locations {
+    /* border: 2px solid red; */
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.locate {
+    height: 500px;
+    width: 1200px;
+    margin: auto;
+    background-image: url("images/locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ltext {
+    /* border: 2px solid red; */
+    position: relative;
+    top: 20%;
+}
+
+.locs {
+    background-color: transparent;
+    position: relative;
+    top: 25%;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.locs2 {
+    height: 250px;
+    width: 300px;
+    background-color: black;
+    opacity: .92;
+    /* border: 2px solid red; */
+    /* background-color: rgba(0, 0, 0); */
+}
+.locs2 h3, .locs2 p {
+    /* border: 2px solid red; */
+    margin-bottom: 35px;
+}
+
+
+/*CONTACTS SECTION*/
+
