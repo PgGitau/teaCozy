@@ -10,7 +10,7 @@
     opacity: 0.9; */
     /* text-align: center; */
 }
-body, .headerimage, .htext, .teas, .timages, .timages img, .locate {
+body, .headerimage, .htext, .teas, .timages, .timages img, .locate, .logo img, .links, .htext {
     background-color: black;
     opacity: 0.9;
 }
@@ -166,4 +166,20 @@ h5 {
 
 
 /*CONTACTS SECTION*/
+.contacts {
+    /* text-align: center; */
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+
+/*FOOTER SECTION*/
+footer {
+    margin: 10px 20px;
+    float: left;
+}
 
